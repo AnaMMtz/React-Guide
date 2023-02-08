@@ -1,0 +1,32 @@
+.expense-filter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0.5rem;
+}
+
+/* .expense-filter h2 {
+  color: white;
+} */
+
+.expense-filter select {
+  width: 10rem;
+  height: 40px;
+  border-radius: 12px;
+  padding: 0.5rem 3rem;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.expense-filter_bars {
+  border-radius: 12px;
+  background-color: thistle;
+  padding: 0.5rem;
+}
+
+.expense-filter label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: white;
+  font-size: 20px;
+}
